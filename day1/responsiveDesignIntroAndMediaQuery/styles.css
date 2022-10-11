@@ -1,0 +1,33 @@
+/* * {
+    background-color: aqua;
+}
+
+@media (min-width: 1000px) {
+    *{
+        background-color: red;
+    }
+}
+
+@media (max-width: 600px) {
+    *{
+        background-color: green;
+    }
+} */
+
+h1 {
+    color: hotpink;
+
+}
+
+body {
+    background-color: aqua;
+}
+
+@media (max-width: 600px) {
+    h1 {
+        color: aqua;
+    }
+    body {
+        background-color: hotpink;
+    }
+}

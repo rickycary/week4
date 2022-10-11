@@ -1,0 +1,58 @@
+h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+}
+
+img {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+h1 {
+    color: blue;
+    background-color: red;
+}
+
+
+h2 {
+    color: red;
+    background-color: blue;
+}
+
+h3 {
+    color: black;
+    background-color: red;
+}
+
+h4 {
+    color: hotpink;
+    background-color: aqua;
+}
+
+h5 {
+    color: blue;
+    background-color: red;
+}
+
+h6 {
+    color: darkblue;
+    background-color: red;
+}
+
+body {
+    background-color: black;
+}
+
+@media (max-width: 600px) {
+    h1 {
+        color: blue;
+    }
+
+    h2 {
+        color: blue;
+        background-color: red;
+    }
+    body {
+        background-color: red;
+    }}
