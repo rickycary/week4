@@ -1,0 +1,65 @@
+/* ***************************
+** CONTAINER DIV
+*************************** */
+
+.container {
+  display: block;
+  background-color: gray;
+  width: 400px;
+  height: 400px;
+  margin: auto;
+}
+
+/* ***************************
+** Square Shape
+*************************** */
+
+.square {
+  height: 100px;
+  width: 100px;
+}
+
+/* ***************************
+** Square Colors
+*************************** */
+
+.one {
+  background-color: red;
+}
+
+.two {
+  background-color: green;
+}
+
+.three {
+  background-color: blue;
+}
+
+.four {
+  background-color: yellow;
+}
+
+/* ***************************
+** Tablet Media Query
+*************************** */
+
+@media screen and (min-width: 480px){
+
+}
+
+/* ***************************
+** Desktop Media Query
+*************************** */
+
+@media screen and (min-width: 769px){
+
+}
+
+/* ***************************
+** Square Shape
+*************************** */
+
+.square {
+  height: 50px;
+  width: 50px;
+}
