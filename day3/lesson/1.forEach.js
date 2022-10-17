@@ -1,20 +1,20 @@
 // Grabs address from data.js
 const { dogs } = require('./data')
 // Checks to see that data.js was pulled 
-console.log(dogs)
+// console.log(dogs)
 
 //==================================================================
 // For Loop:
 // 1. Create function which has a for loop that console.logs each ELEMENT.
 // Invoke the function using the dogs array as its parameter
 
-// const forLooping = arr =>{
-//     for(let i=0; i<arr.length; i+=1){
-//         console.log('element', arr[1]);
-//     }
-// }
+const forLooping = arr =>{
+    for(let i=0; i<arr.length; i+=1){
+        console.log('element', arr[1]);
+    }
+}
 
-// forLooping(dogs)
+forLooping(dogs)
 //==================================================================
 
 //==================================================================
@@ -72,32 +72,32 @@ console.log(dogs)
 
 // Invoke the function using the dogs array as its parameter
 
-// const names = [];
+const names = [];
 
-// const forEachNames = (arr) => {
-//     arr.forEach((element, index) => {
-//         names.push(element.name);
-//     })
-//     console.log(names)
-// }
-// forEachNames(dogs)
+const forEachNames = (arr) => {
+    arr.forEach((element, index) => {
+        names.push(element.name);
+    })
+    console.log(names)
+}
+forEachNames(dogs)
 //==================================================================
 
 //==================================================================
 // Using for each to push into an empty array using 2 properties
 // Extra that student asked 
 
-const nameAndAge = [];
+// const nameAndAge = [];
 
-const addingNameAndAge = (arr) => {
-    arr.forEach((element, index) => {
-        nameAndAge.push({ name: element.age, age: element.age})
-    })
+// const addingNameAndAge = (arr) => {
+//     arr.forEach((element, index) => {
+//         nameAndAge.push({ name: element.age, age: element.age})
+//     })
 
-    console.log(nameAndAge)
-}
+//     console.log(nameAndAge)
+// }
 
-addingNameAndAge(dogs)
+// addingNameAndAge(dogs)
 //==================================================================
 
 //==================================================================
